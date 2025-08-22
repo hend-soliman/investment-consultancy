@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+header{
+    background-color: #e7eafd;
+    a{
+        cursor: pointer;
+        font-weight: 600;
+    }
+    #us{
+        color: blue;
+    }
+}
+section{
+      background-color: #e7eafd;
+      height: 50vh;
+      #hero{
+        padding-top: 14rem;
+        h1{
+        font-weight: 700;
+        font-size: 3.7058823529411766rem;
+        }
+        p{
+        font-weight: 500;
+            line-height: 1.6;
+        }
+      }
+}
