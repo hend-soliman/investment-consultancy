@@ -30,3 +30,42 @@ section{
         }
       }
 }
+#contact{
+
+    #call{
+        height: 40vh;
+        background-color: #f2f2f2;
+        border-radius: 10%;
+        svg{
+            background-color: #243be6;
+            border-radius: 50%;
+        }
+        p{
+            color:#243be6 ;
+        }
+    }
+    #email{
+        height: 40vh;
+        background-color: #f2f2f2;
+        border-radius: 10%;
+        img{
+        background-color: #243be6;
+        border-radius: 50%;
+        }
+        p{
+         color:#243be6 ;
+        }
+    }
+    #visit{
+        height: 40vh;
+        background-color: #f2f2f2;
+        border-radius: 10%;
+        img{
+        background-color: #243be6;
+        border-radius: 50%;
+        }
+        p{
+        color:#243be6 ; 
+        }
+    }
+}
