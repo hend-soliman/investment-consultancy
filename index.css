@@ -8,7 +8,7 @@
 header{
     background-color: #e7eafd;
     nav{
-       a{
+       .a{
         cursor: pointer;
         font-weight: 600;
         
@@ -31,7 +31,7 @@ header{
         header #bars{
             display: flex;
        }
-        a{
+        .a{
             display: none;
         }
     }
@@ -154,7 +154,7 @@ section{
         font-weight: normal;
         line-height: 1.6;
     }
-    input{
+    .input{
             width: 100%;
             padding: 8px 0;
             margin-bottom: 20px;
@@ -214,8 +214,8 @@ section{
             
         }
     }
-footer {
-    height: auto;
+ footer {
+    
     background-color: black;
     color: white;
     padding: 3rem 1rem;
@@ -229,4 +229,4 @@ footer {
     }
     
     
-}
+} 

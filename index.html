@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>investment consultancy</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="./index.css" >
 </head>
@@ -12,9 +13,9 @@
     <div class="d-flex justify-content-between align-items-center">
         <img src="./logo-investment.png" height="55px" width="202px">
         <nav  class="d-flex  align-items-center gap-4">
-            <a>Home</a>
-            <a>Pages</a>
-            <a id="us">Contact Us</a>
+            <a class="a">Home</a>
+            <a class="a">Pages</a>
+            <a class="a" id="us">Contact Us</a>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g class="search-outline"><g fill="currentColor" fill-rule="evenodd" class="Vector" clip-rule="evenodd"><path d="M11 17a6 6 0 1 0 0-12a6 6 0 0 0 0 12m0 2a8 8 0 1 0 0-16a8 8 0 0 0 0 16"/><path d="M15.32 15.29a1 1 0 0 1 1.414.005l3.975 4a1 1 0 0 1-1.418 1.41l-3.975-4a1 1 0 0 1 .004-1.414Z"/></g></g></svg>
          </nav>
            <svg id="bars" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M19 12.75H5a.75.75 0 0 1 0-1.5h14a.75.75 0 0 1 0 1.5m0-4.5H5a.75.75 0 0 1 0-1.5h14a.75.75 0 0 1 0 1.5m0 9H5a.75.75 0 0 1 0-1.5h14a.75.75 0 0 1 0 1.5"/></svg>
@@ -53,12 +54,12 @@
             <p>Drop us a line and we’ll get back to you soon!</p>
          <form id="group-form"  class=" d-flex flex-column">
             <label for="name">Name</label>
-            <input type="text" id="Name" placeholder="Enter your name">
+            <input class="input" type="text" id="Name" placeholder="Enter your name">
             <label for="email">Email</label>
-            <input type="email" id="email" placeholder="Enter a valid email address">
+            <input class="input" type="email" id="email" placeholder="Enter a valid email address">
             <label for="message">Message</label>
             <textarea type="text" id="message" placeholder="Enter your message"></textarea>
-         <div id="checkbox" class="d-flex flex-row align-items-start ">
+         <div id="checkbox" class="d-flex ">
          <input type="checkbox" id="terms">
          <label for="terms" class="ms-2">I accept the Terms of Service</label>
          </div>
@@ -73,17 +74,17 @@
             <h3>We provide multiple solutions to help your<br> business drive value, foster innovation, enhance<br> performance</h3>
             <p> Images from <a href="#">FreePik</a></p>
         </div>
-        <div id="help" class=" d-flex  flex-wrap flex-column">
+        <div id="help" class="d-flex flex-column">
             <h3>Help</h3>
-            <hr width="200px"> 
+            <hr> 
             <a>FAQs</a>
             <a>Services</a>
             <a>Contact Us</a>
             <a> News & Blogs</a>
            <div>
-            <a href="http;//facebook.com"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M9.945 22v-8.834H7V9.485h2.945V6.54c0-3.043 1.926-4.54 4.64-4.54c1.3 0 2.418.097 2.744.14v3.18h-1.883c-1.476 0-1.82.703-1.82 1.732v2.433h3.68l-.736 3.68h-2.944L13.685 22"/></svg></a>
-            <a href="http://twitter.com"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="m17.687 3.063l-4.996 5.711l-4.32-5.711H2.112l7.477 9.776l-7.086 8.099h3.034l5.469-6.25l4.78 6.25h6.102l-7.794-10.304l6.625-7.571zm-1.064 16.06L5.654 4.782h1.803l10.846 14.34z"/></svg></a>
-            <a href="http://instagram.com"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M16 7a1 1 0 1 1 2 0a1 1 0 0 1-2 0"/><path fill="currentColor" fill-rule="evenodd" d="M12 7.25a4.75 4.75 0 1 0 0 9.5a4.75 4.75 0 0 0 0-9.5M8.75 12a3.25 3.25 0 1 1 6.5 0a3.25 3.25 0 0 1-6.5 0" clip-rule="evenodd"/><path fill="currentColor" fill-rule="evenodd" d="M17.258 2.833a47.7 47.7 0 0 0-10.516 0c-2.012.225-3.637 1.81-3.873 3.832a46 46 0 0 0 0 10.67c.236 2.022 1.86 3.607 3.873 3.832a47.8 47.8 0 0 0 10.516 0c2.012-.225 3.637-1.81 3.873-3.832a46 46 0 0 0 0-10.67c-.236-2.022-1.86-3.607-3.873-3.832m-10.35 1.49a46.2 46.2 0 0 1 10.184 0c1.33.15 2.395 1.199 2.55 2.517a44.4 44.4 0 0 1 0 10.32a2.89 2.89 0 0 1-2.55 2.516a46.2 46.2 0 0 1-10.184 0a2.89 2.89 0 0 1-2.55-2.516a44.4 44.4 0 0 1 0-10.32a2.89 2.89 0 0 1 2.55-2.516" clip-rule="evenodd"/></svg></a>
+            <i class="fa-brands fa-facebook-f"></i>
+         <i class="fa-brands fa-x-twitter"></i>
+         <i class="fa-brands fa-instagram"></i>
           </div>
         </div>
         <div id="get" class=" d-flex flex-wrap flex-column">
