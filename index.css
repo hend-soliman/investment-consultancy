@@ -25,6 +25,9 @@ header{
     }
 }
   @media (max-width: 767px) {
+        header{
+              padding: 25px;
+        }
         header #bars{
             display: flex;
        }
